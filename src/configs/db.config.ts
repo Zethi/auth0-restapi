@@ -1,6 +1,6 @@
 require("dotenv").config({ path: "../.env" });
 
-export const database = {
+export const db = {
   host: process.env.DB_HOST,
   port: process.env.DB_PORT,
   user: process.env.DB_USERNAME,

@@ -1,6 +1,6 @@
-import { database } from "./db.config";
+import { db } from "./db.config";
 import { express } from "./express.config";
 
-const config = { database, express };
+const config = { db, express };
 
 export default config;
