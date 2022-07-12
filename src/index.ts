@@ -15,7 +15,7 @@ class App {
   }
 
   routes() {
-    this.server.use("/api/announces", require("./routes/announces/router"));
+    this.server.use("/api/blog/posts", require("./routes/posts/router"));
   }
 }
 
